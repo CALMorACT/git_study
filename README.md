@@ -96,3 +96,19 @@ $$
     [百度](https://www.baidu.com)
 * 图片
     ![好吃的](https://images.pexels.com/photos/3604314/pexels-photo-3604314.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
+
+## 附加功能(VS code 插件功能)
+
+### 表格
+
+colspan `>` or `empty cell`
+| a | b |
+|:--:|:--:|
+| > | 1 |
+| 2 |  |
+
+rowspan `^`
+| a | b |
+|:--|:--|
+|1|2|
+|^|4|
