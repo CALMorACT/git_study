@@ -49,6 +49,11 @@ _无_           斜体
 |这是1|这是2|
 |这是3|这是4|
 
+这是头|这是尾
+:-----:|:---:
+这是什么|我也不知道
+到底该怎么说呢|很明显啥都没得说
+
 ## 代码
 
 1. 行内代码
@@ -56,15 +61,18 @@ _无_           斜体
 
 2. 代码块
 
-```python
+```python{.line-numbers highlight=1}
 print("why\n")
 ```
 
 ## 引用
-1. > 我有什么错
-   > 为什么这样
-   > 请你解释一下
-2. > 这种区域叫做引用
+
+正如 Kanye West 所说：
+
+> We're living the future so
+> the present is our past.
+
+## 公式
 
 目前已知在github中无法使用公式
 $$
@@ -75,3 +83,16 @@ $$
 \end{vmatrix}
 $$
 
+## 任务列表
+
+* [x] @mentions, # efs, [links](https://www.baidu.com), **formatting**, and ~~tags~~ supported
+* [x] list syntax required (any unordered or ordered list supported)
+* [x] this is a complete item
+* [ ] this is an incomplete item
+
+## 链接和图片
+
+* 链接
+    [百度](https://www.baidu.com)
+* 图片
+    ![好吃的](https://images.pexels.com/photos/3604314/pexels-photo-3604314.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
