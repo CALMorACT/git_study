@@ -4,25 +4,43 @@
 
 ## Hello World
 
-## 标题内容
+## 针对标题和字体格式的更改
 
 目前未知自己会出多少问题哈哈哈哈
-___除名___
-__和__
-_无_
-*无*
-**和**
-***除名***
-**~~*除名*~~**
+___除名___     粗斜体
+__和__         粗体
+_无_           斜体
+*无*           斜体
+**和**         粗体
+***除名***     粗斜体
+**~~*除名*~~** 带有删除线的粗斜体
+
+## 分隔线
+
 * * *
 
-* 交
-* 交
-* 交
-PLEASE SHUT UP
+## 列表
 
-有这些[^注脚]
-有什么注释
+1. 无序列表
+
+* 交
+* 交
+* 交
+* PLEASE SHUT UP
+
+1. 有序列表
+
+    1. 有
+    2. 无
+    3. 有
+    4. 没有
+
+## 注脚和注释(特定的编辑器有注释)
+
+有这些[^1]
+<!--注释一下: 注脚会自动放在最后面-->
+[^1]: 为什么呢
+[*注释]: 没什么东西
 
 ## Table
 
@@ -30,22 +48,31 @@ PLEASE SHUT UP
 |:-----:|:------:|
 |这是1|这是2|
 |这是3|这是4|
-[^注脚]: 为什么呢
-[*注释]: 没什么东西
 
-1. 为什么这样
-    * 我怎么你了
-    * 有什么问题吗
-2. 你这是什么意思
+这是头|这是尾
+:-----:|:---:
+这是什么|我也不知道
+到底该怎么说呢|很明显啥都没得说
 
-```python
+## 代码
+
+1. 行内代码
+    行内`print("Hello world\n")`也能有代码
+
+2. 代码块
+
+```python{.line-numbers highlight=1}
 print("why\n")
 ```
 
-1. > 我有什么错
-   > 为什么这样
-   > 请你解释一下
-2. > 这种区域叫做引用
+## 引用
+
+正如 Kanye West 所说：
+
+> We're living the future so
+> the present is our past.
+
+## 公式
 
 目前已知在github中无法使用公式
 $$
@@ -56,11 +83,16 @@ $$
 \end{vmatrix}
 $$
 
-[为什么](https://baidu.com)
-<https://baidu.com>
+## 任务列表
 
-这是百度[Baidu][1]
-这是菜鸟教程[Runoob][runoob]
+* [x] @mentions, # efs, [links](https://www.baidu.com), **formatting**, and ~~tags~~ supported
+* [x] list syntax required (any unordered or ordered list supported)
+* [x] this is a complete item
+* [ ] this is an incomplete item
 
-[1]:https:baidu.com
-[runoob]:https:baidu.com
+## 链接和图片
+
+* 链接
+    [百度](https://www.baidu.com)
+* 图片
+    ![好吃的](https://images.pexels.com/photos/3604314/pexels-photo-3604314.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
