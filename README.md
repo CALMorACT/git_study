@@ -74,7 +74,8 @@ print("why\n")
 
 ## 公式
 
-目前已知在github中无法使用公式
+目前已知在github中无法使用 latex 公式
+在语雀中直接导入时可以勾选使用 latex 公式功能, 从而使用
 $$
 \mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} 
 \mathbf{i} & \mathbf{j} & \mathbf{k} \\
