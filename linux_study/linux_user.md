@@ -1,3 +1,12 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-02-15 10:42:18
+ * @LastEditTime: 2020-04-24 22:43:27
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \git_study\linux_study\linux_user.md
+ -->
+
 # 控制用户(组)
 
 ## 控制用户
